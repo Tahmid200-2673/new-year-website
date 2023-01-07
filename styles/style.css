@@ -17,7 +17,7 @@
 /* header styles */
 .header{
     height: 600px;
-    background-image: url(../images/banner/banner1_5_1919x600.png);
+    background-image: url('../images/banner/banner1_5_1919x600.png');
     background-repeat: no-repeat;
     background-position: left;
    
