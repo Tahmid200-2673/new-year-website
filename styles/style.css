@@ -14,6 +14,18 @@
     
 
 }
+.btn-secondary{
+    color: tomato;
+    /* width: 325px;
+    height: 204px; */
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
 /* header styles */
 .header{
     height: 600px;
@@ -100,8 +112,8 @@ main{
  }
  .skills-container {
     display: flex;
-    justify-content: space-between;
-    margin-top:  50px ;
+    justify-content: space-between; 
+    margin-top:50px ;
  }
 .skill-title{
      margin-top: 15px;
@@ -111,3 +123,41 @@ main{
     font-weight: 200;
     color: #737272;
  }
+ /* footer section */
+ footer{
+   display: flex;
+   justify-content: space-between;
+   padding: 130px 230px; 
+    background-color: #151414; 
+   color: #F8F8F8;
+ }
+ 
+ .info-title .subscribe-title{
+    margin-bottom: 10px;
+    font-weight: 600;
+ }
+ .info-description{
+     padding-top:16px ;
+     padding-bottom: 24px;
+ }
+ .email-info .phone-info{
+    font-weight: 400px;
+    font-size:  16px;
+ 
+ }
+ .subscribe input[type="email"], input[type="submit"]{
+    margin-top: 14px;
+    border-radius: 8px;
+    width: 100%;
+    padding:18px 30px;
+ }
+ .icons{
+    padding: 32px;
+    display: flex;
+    gap: 10px;
+ }
+ .icons a{
+    text-decoration: none;
+
+ }
+ 
