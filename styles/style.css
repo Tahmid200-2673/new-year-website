@@ -87,3 +87,27 @@ main{
     list-style-type: none;
     margin-top: 16px;
 }
+ /* my plans section  */
+ .my-plans-container{
+    text-align: center;
+    margin: 130px auto;
+ }
+ .my-plans-title{
+      
+      font-weight: 700;
+      font-size: 40px;
+
+ }
+ .skills-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top:  50px ;
+ }
+.skill-title{
+     margin-top: 15px;
+}
+ .skill-description{
+  
+    font-weight: 200;
+    color: #737272;
+ }
