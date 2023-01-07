@@ -1,8 +1,10 @@
-*{
-    margin: 0; 
+* {
+    margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
-.btn-primary{
+
+/*button styles*/
+.btn-primary {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
@@ -11,13 +13,14 @@
     border-radius: 5px;
     background: #F15B22;
 
-    
+
 
 }
-.btn-secondary{
+
+.btn-secondary {
     color: tomato;
-    /* width: 325px;
-    height: 204px; */
+    width: 160px;
+    height: 64px;
     margin-top: 16px;
     font-weight: 600;
     font-size: 20px;
@@ -26,138 +29,211 @@
     border-radius: 5px;
     background: #FFFFFF;
 }
+
 /* header styles */
-.header{
+.header {
     height: 600px;
     background-image: url('../images/banner/banner1_5_1919x600.png');
     background-repeat: no-repeat;
     background-position: left;
-   
+
 }
+
 /* banner styles */
-.banner{
+.banner {
     padding-top: 83px;
     position: relative;
     text-align: right;
     color: white;
-} 
-.banner-text{
+}
+
+.banner-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(0%, 30%);
     margin-right: 230px;
-    
+
 
 }
-.banner-title{
+
+.banner-title {
     color: black;
     font-weight: 700;
     font-size: 65px;
     margin-bottom: 24px;
 }
-.banner-description{
-   color: #444343;
-   font-weight: 400;
-   font-size: 16px;
-   margin-bottom: 32px;
+
+.banner-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
 
 }
+
 /* main section */
 /* previus year section */
-main{
+main {
     max-width: 1140px;
-    margin:138px auto;
+    margin: 138px auto;
 }
-.previus-year-container{
+
+.previus-year-container {
     display: flex;
     justify-content: space-between;
     gap: 87;
     background: white;
 }
-.previus-year-container img{
 
-}
-.previus-year-title{
+.previus-year-container img {}
+
+.previus-year-title {
     font-weight: 600;
     font-size: 40px;
     color: #151414;
 }
-.previus-year-text{
-    color: #444343; 
+
+.previus-year-text {
+    color: #444343;
     margin-left: 87px;
-    margin-top: 215px; 
-  
+    margin-top: 215px;
+
 }
+
 .previus-year-description {
     font-weight: 600;
     font-size: 16px;
-     margin: 16px auto;
+    margin: 16px auto;
 
 }
-.previus-year-list{
+
+.previus-year-list {
     list-style-type: none;
     margin-top: 16px;
 }
- /* my plans section  */
- .my-plans-container{
+
+/* my plans section  */
+.my-plans-container {
     text-align: center;
     margin: 130px auto;
- }
- .my-plans-title{
-      
-      font-weight: 700;
-      font-size: 40px;
-
- }
- .skills-container {
-    display: flex;
-    justify-content: space-between; 
-    margin-top:50px ;
- }
-.skill-title{
-     margin-top: 15px;
 }
- .skill-description{
-  
+
+.my-plans-title {
+
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.skill-title {
+    margin-top: 15px;
+}
+
+.skill-description {
+
     font-weight: 200;
     color: #737272;
- }
- /* footer section */
- footer{
-   display: flex;
-   justify-content: space-between;
-   padding: 130px 230px; 
-    background-color: #151414; 
-   color: #F8F8F8;
- }
- 
- .info-title .subscribe-title{
+}
+
+/* greetings section */
+.greetings {
+
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 550px;
+    background-color: #B0E0E6;
+    border-radius: 8px;
+    margin-bottom: 50px;
+
+    text-align: center;
+
+
+}
+
+.greetings-title {
+    padding-top: 120px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+/*call  section*/
+.call {
+
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('../images/watch.png'); */
+    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+    background-position: left, right;
+    border-radius: 8px;
+}
+
+.call-text {
+    padding: 59px 64px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+#btn-call {
+    width: 160px;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+    background-color: #151414;
+    color: #F8F8F8;
+}
+
+/* information section  */
+.info-title .subscribe-title {
     margin-bottom: 10px;
     font-weight: 600;
- }
- .info-description{
-     padding-top:16px ;
-     padding-bottom: 24px;
- }
- .email-info .phone-info{
+}
+
+.info-description {
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.email-info .phone-info {
     font-weight: 400px;
-    font-size:  16px;
- 
- }
- .subscribe input[type="email"], input[type="submit"]{
+    font-size: 16px;
+
+}
+
+/* subscribe section  */
+.subscribe input[type="email"],
+input[type="submit"] {
     margin-top: 14px;
     border-radius: 8px;
     width: 100%;
-    padding:18px 30px;
- }
- .icons{
+    padding: 18px 30px;
+}
+
+input {
+    height: 20px;
+}
+
+/* icons section */
+.icons {
     padding: 32px;
     display: flex;
     gap: 10px;
- }
- .icons a{
+}
+
+.icons a {
     text-decoration: none;
 
- }
- 
+}
